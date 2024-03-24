@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  background-color: rgb(119, 45, 187);
+  color: white;
+  min-height: 100px;
+}
+
+.header__content {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.header__info {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.header__logo {
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,36 @@
+.about {
+  position: relative;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about__title {
+  font-size: 28px;
+  line-height: 32px;
+  color: rgb(22, 21, 21);
+  align-self: flex-start;
+}
+
+.about__text {
+  font-size: 22px;
+  line-height: 26px;
+  color: rgb(22, 21, 21);
+  text-align: justify;
+}
+
+.about__image{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  width: 60vw;
+  max-height: 70vw;
+}
