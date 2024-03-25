@@ -1,0 +1,36 @@
+.main {
+  padding: 20px;
+}
+
+.main__title{
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.cards-closed {
+  display: none;
+}
+
+.cards__buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__buttons-page {
+  width: 20vw;
+  background: none;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color:rgb(119, 45, 187);
+  font-family: InterRegular400, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cards__buttons-page:hover {
+  opacity: 0.5;
+}
+
+.cards__buttons-disabled {
+  background-color: rgba(63, 54, 54, 0.2);
+}
