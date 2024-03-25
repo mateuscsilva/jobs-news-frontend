@@ -32,5 +32,16 @@
   z-index: -1;
   opacity: 0.5;
   width: 60vw;
-  max-height: 70vw;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    align-items: flex-start;
+    width: 90%;
+    padding-left: 30px;
+  } 
 }

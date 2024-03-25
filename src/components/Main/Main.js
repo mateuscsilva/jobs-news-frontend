@@ -62,12 +62,12 @@ function Main (props) {
 
   return (
     <div className="main">
-      <h3 className="main__title">Encontre sua vaga</h3>
+      <h3 className="main__title">Encontre sua vaga</h3>  
       <Preloader isOpen={isOpenPreloader}></Preloader>
       <section className={`cards ${isOpenPreloader ? 'cards-closed': ''}`}>
 
         {cards.cardsArray.map((card, i)=>{
-            return <Card key={i} title={card.name} company={card.company.name} description={card.contents}></Card>
+            return <Card key={card.id} title={card.name} company={card.company.name} description={card.contents} unwrap={false} level={card.levels[0]}></Card>
         })}
 
         <div className="cards__buttons">
